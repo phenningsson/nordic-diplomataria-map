@@ -1,0 +1,46 @@
+{
+ "europe_blaeu": {
+  "file": "europe_blaeu.png",
+  "webp": "europe_blaeu.webp",
+  "title": "Blaeu, Europa recens descripta (Amsterdam, c. 1640)",
+  "method": "tps",
+  "bounds": [
+   [
+    34.5,
+    -15.0
+   ],
+   [
+    66.0,
+    36.0
+   ]
+  ],
+  "rms_px": 6.0,
+  "size": [
+   2000,
+   2036
+  ],
+  "n_points": 13
+ },
+ "carta_marina": {
+  "file": "carta_marina.png",
+  "webp": "carta_marina.webp",
+  "title": "Olaus Magnus, Carta Marina (Venice, 1539)",
+  "method": "tps",
+  "bounds": [
+   [
+    52.0,
+    2.0
+   ],
+   [
+    71.0,
+    32.0
+   ]
+  ],
+  "rms_px": 99.4,
+  "size": [
+   2000,
+   2756
+  ],
+  "n_points": 17
+ }
+}

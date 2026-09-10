@@ -1,0 +1,188 @@
+query_name,qid,label,lat,lon,country,sitelinks
+Aalborg|,Q25410,Aalborg,57.05,9.916667,Denmark,110
+Aarhus|,Q25319,Aarhus,56.156389,10.209722,Denmark,127
+Akershus|,Q50615,Akershus,60.0,11.0,Norway,87
+Anagni|,Q116404,Anagni,41.75,13.15,Italy,71
+Antvorskov|,Q1783399,Antvorskov,55.391111,11.362778,Denmark,8
+Assisi|,Q20103,Assisi,43.070812,12.614998,Italy,99
+Avignon|,Q6397,Avignon,43.948611,4.808333,France,121
+Basel|,Q78,Basel,47.560556,7.590556,Switzerland,150
+Bautzen|,Q14835,Bautzen,51.181389,14.423889,Germany,86
+Benevent|,Q13437,Benevento,41.133333,14.783333,Italy,95
+Bergen|,Q26793,Bergen,60.3925,5.323333,Norway,147
+Bohus|,Q1408860,Bohus Fortress,57.861944,11.999444,Sweden,17
+Bologna|,Q1891,Bologna,44.493889,11.342778,Italy,161
+Braunschweig|,Q2773,Brunswick,52.269167,10.521111,Germany,117
+Bremen|,Q24879,Bremen,53.075833,8.807222,Germany,164
+Brugge|Belgium,Q12994,Bruges,51.208889,3.224167,Belgium,119
+Bygholm|,Q5004090,Bygholm Castle,55.864722,9.825556,Denmark,4
+Citeaux|,Q843261,Cîteaux Abbey,47.128056,5.093333,France,29
+Compiègne|,Q180871,Compiègne,49.414167,2.822222,France,84
+Cîteaux|,Q843261,Cîteaux Abbey,47.128056,5.093333,France,29
+Danzig|,Q1792,Gdańsk,54.348291,18.654023,Poland,172
+Demmin|,Q50960,Demmin,53.905,13.043889,Germany,54
+Den Haag|Netherlands,Q36600,The Hague,52.08,4.31,Netherlands,183
+Deventer|,Q10001,Deventer,52.25,6.166667,Netherlands,84
+Doberan|,Q9536,Bad Doberan,54.106944,11.905278,Germany,60
+Dortmund|,Q1295,Dortmund,51.513889,7.465278,Germany,153
+Dragsholm|,Q967467,Dragsholm Municipality,55.803333,11.442222,Denmark,12
+Elblag|Poland,Q104712,Elbląg,54.152222,19.408889,Poland,76
+Fabriano|,Q13145,Fabriano,43.338561,12.908519,Italy,61
+Falkenberg|,Q54766,Falkenberg,56.901418,12.49709,Sweden,53
+Falsterbo|,Q194512,Skanör med Falsterbo,55.395343,12.855141,Sweden,27
+Femern|,Q3172,Fehmarn,54.436831,11.19755,Germany,71
+Ferrara|,Q13362,Ferrara,44.839167,11.6175,Italy,114
+Firenze|,Q2044,Florence,43.771389,11.254167,Italy,213
+Flensborg|,Q3798,Flensburg,54.781944,9.436667,Germany,101
+Flyinge|,Q2234445,Flyinge,55.752136,13.365891,Sweden,14
+Frankfurt|,Q1794,Frankfurt,50.110556,8.682222,Germany,212
+Frascati|Italy,Q190963,Frascati,41.816667,12.683333,Italy,79
+Gdansk|Poland,Q1792,Gdańsk,54.348291,18.654023,Poland,172
+Genazzano|,Q242675,Genazzano,41.833318,12.972838,Italy,54
+Genova|,Q1449,Genoa,44.407222,8.933889,Italy,179
+Gottorp|,Q647987,Gottorf Castle,54.511667,9.541389,Germany,22
+Greifswald|,Q4098,Greifswald,54.083333,13.383333,Germany,85
+Grevesmühlen|,Q517353,Grevesmühlen,53.86446,11.19089,Germany,42
+Gudhem|,Q1014055,Gudhem,58.226849,13.566736,Sweden,20
+Gurre Slot|Denmark,Q3431547,Gurre Castle,56.019499,12.505246,Denmark,9
+Güstrow|,Q16147,Güstrow,53.793889,12.176389,Germany,63
+Haderslev|,Q29868,Haderslev,55.25,9.5,Denmark,47
+Halmstad|,Q26521,Halmstad,56.673972,12.857278,Sweden,86
+Hamburg|,Q1055,Hamburg,53.55,10.0,Germany,230
+Hammershus|,Q700384,Hammershus,55.271151,14.755815,Denmark,21
+Heidelberg|,Q2966,Heidelberg,49.409358,8.694724,Germany,145
+Helsingborg|,Q25411,Helsingborg,56.042412,12.720996,Sweden,96
+Helsingør|,Q26881,Helsingør,56.036,12.6106,Denmark,82
+Hjortholm|,Q23747111,Hjortholm,55.89234,10.63866,Denmark,3
+Holbæk|,Q28042,Holbæk,55.7181,11.7103,Denmark,40
+Holstebro|,Q27678,Holstebro,56.358056,8.6175,Denmark,48
+Horsens|,Q190235,Horsens,55.861944,9.851944,Denmark,77
+Hørsholm|,Q512540,Hørsholm Municipality,55.883333,12.5,Denmark,38
+Itzehoe|,Q16073,Itzehoe,53.925,9.516389,Germany,57
+Jönköping|,Q25415,Jönköping,57.783333,14.166667,Sweden,95
+Kalmar|,Q26345,Kalmar,56.664286,16.365633,Sweden,91
+Kalundborg|,Q204976,Kalundborg Municipality,55.680639,11.097972,Denmark,37
+Kampen|,Q10014,Kampen,52.555,5.919722,Netherlands,55
+Kiel|,Q1707,Kiel,54.323333,10.139444,Germany,142
+Kolding|,Q27119,Kolding,55.490833,9.472222,Denmark,74
+Konstanz|Germany,Q3834,Constance,47.663333,9.175278,Germany,97
+Korsør|,Q1784816,Korsør,55.3283,11.1397,Denmark,25
+Köln|,Q365,Cologne,50.942222,6.957778,Germany,190
+København|,Q1748,Copenhagen,55.676111,12.568889,Denmark,246
+Køge|,Q21184,Køge,55.45,12.183333,Denmark,51
+Laholm|,Q503050,Laholm,56.504065,13.039083,Sweden,42
+Lindholm|,Q28038,Risum-Lindholm,54.758019,8.869061,Germany,34
+Linköping|,Q25413,Linköping,58.409418,15.625656,Sweden,101
+London|,Q84,London,51.507222,-0.1275,United Kingdom,356
+Lucca|,Q13373,Lucca,43.85,10.516667,Italy,112
+Lund|Sweden,Q2167,Lund,55.708313,13.199164,Sweden,104
+Lyon|,Q456,Lyon,45.7675,4.835,France,196
+Lödöse|,Q1639127,Lödöse,58.027879,12.160024,Sweden,22
+Lübeck|,Q2843,Lübeck,53.869722,10.686389,Germany,135
+Lüneburg|,Q3920,Lüneburg,53.2525,10.414444,Germany,86
+Malaucène|France,Q602820,Malaucène,44.174167,5.132222,France,35
+Malbork|Poland,Q146820,Malbork,54.02846,19.04435,Poland,75
+Malmø|,Q2211,Malmö,55.583333,13.0,Sweden,148
+Mantua|,Q6247,Mantua,45.156389,10.791111,Italy,119
+Meldorf|,Q498545,Meldorf,54.083333,9.066667,Germany,43
+Middelfart|,Q21140,Middelfart Municipality,55.5,9.75,Denmark,37
+Montefiascone|,Q176142,Montefiascone,42.533333,12.033333,Italy,63
+Nakskov|,Q24231,Nakskov,54.833333,11.15,Denmark,27
+Napoli|,Q2634,Naples,40.835833,14.248611,Italy,207
+Nottingham|,Q41262,Nottingham,52.955,-1.149167,United Kingdom,122
+Nyborg|,Q30013,Nyborg Municipality,55.29473,10.7031,Denmark,40
+Nyhus|,Q16854910,Niehuus,54.82654,9.37951,Germany,3
+Nyköping|,Q54356,Nyköping,58.758237,17.018466,Sweden,73
+Nykøbing F.|,Q986435,Nykøbing Falster,54.766667,11.883333,Denmark,30
+Nykøbing Falster|,Q986435,Nykøbing Falster,54.766667,11.883333,Denmark,30
+Nykøbing|,Q986435,Nykøbing Falster,54.766667,11.883333,Denmark,30
+Næstved|,Q21178,Næstved,55.233333,11.766667,Denmark,51
+Nîmes|,Q42807,Nîmes,43.838333,4.359722,France,119
+Nürnberg|,Q2090,Nuremberg,49.453889,11.0775,Germany,156
+Odense|Denmark,Q25331,Odense,55.4,10.383333,Denmark,115
+Orvieto|,Q541,Orvieto,42.7182,12.108269,Italy,83
+Oslo|,Q585,Oslo,59.913333,10.738889,Norway,244
+Paris|,Q90,Paris,48.856667,2.352222,France,366
+Perugia|,Q3437,Perugia,43.111918,12.388548,Italy,128
+Plön|,Q497060,Plön,54.162222,10.421389,Germany,52
+Poitiers|,Q6616,Poitiers,46.581111,0.335278,France,114
+Prag|,Q1085,Prague,50.0875,14.421389,Czech Republic,267
+Prenzlau|,Q537214,Prenzlau,53.309752,13.862671,Germany,58
+Putbus|,Q572006,Putbus,54.354531,13.474903,Germany,41
+Pîtres|,Q1072945,Pîtres,49.319444,1.225833,France,42
+Ralswiek|,Q658200,Ralswiek,54.466667,13.45,Germany,32
+Randers|,Q27168,Randers,56.456944,10.039167,Denmark,71
+Reinfeld|,Q539463,Reinfeld,53.833333,10.483333,Germany,35
+Rendsborg|,Q490457,Rendsburg,54.304444,9.664444,Germany,60
+Rendsburg|,Q490457,Rendsburg,54.304444,9.664444,Germany,60
+Ribe domkirke|,Q700070,Ribe Cathedral,55.32804,8.7615,Denmark,18
+Ribe|,Q322361,Ribe,55.327222,8.763056,Denmark,51
+Ribnitz|,Q571959,Ribnitz-Damgarten,54.25,12.466667,Germany,43
+Rieti|,Q13396,Rieti,42.40443,12.856702,Italy,87
+Riga|,Q1773,Riga,56.9475,24.106944,Latvia,225
+Rimini|,Q13369,Rimini,44.059444,12.568333,Italy,117
+Ringsted|Denmark,Q503116,Ringsted Municipality,55.445276,11.788908,Denmark,37
+Roma|Italy,Q220,Rome,41.893056,12.482778,Italy,343
+Roskilde|,Q26563,Roskilde,55.641667,12.080833,Denmark,85
+Rostock|,Q2861,Rostock,54.083333,12.133333,Germany,120
+Sakskøbing|,Q13218306,Sakskøbing,54.7975,11.63639,Denmark,17
+Schwerin|,Q1709,Schwerin,53.628889,11.415,Germany,122
+Segeberg|,Q496050,Bad Segeberg,53.936111,10.309722,Germany,52
+Skanør|,Q194512,Skanör med Falsterbo,55.395343,12.855141,Sweden,27
+Skara|,Q939389,Skara,58.384245,13.434902,Sweden,45
+Skänninge|,Q990083,Skänninge,58.392129,15.087694,Sweden,26
+Slagelse|,Q3414556,Slagelse,55.400833,11.35,Denmark,44
+Slangerup|,Q3617406,Slangerup,55.8467,12.1761,Denmark,16
+Slesvig|,Q501661,Schleswig,54.515278,9.569722,Germany,66
+Sorgues|France,Q538880,Sorgues,44.008333,4.8725,France,41
+Sorø|,Q27858,Sorø,55.4366,11.5592,Denmark,44
+Spandau|,Q158083,Spandau,52.55,13.2,Germany,48
+Stade|,Q6949,Stade,53.600833,9.476389,Germany,64
+Stegeborg|,Q661338,Stegeborg Castle,58.441389,16.598889,Sweden,8
+Stege|,Q2301524,Stege,54.9861,12.2856,Denmark,16
+Sternberg|,Q157266,Sternberg,53.711694,11.829306,Germany,40
+Stockholm|,Q1754,Stockholm,59.329444,18.068611,Sweden,278
+Stralsund|,Q4065,Stralsund,54.309167,13.081944,Germany,90
+Stuhm|,Q640368,Sztum,53.920556,19.030556,Poland,37
+Svavsted|,Q28050,Schwabstedt,54.395833,9.187222,Germany,34
+Svendborg|,Q28031,Svendborg,55.059722,10.61,Denmark,45
+Söderköping|,Q984831,Söderköping,58.475012,16.326708,Sweden,38
+Søborg|,Q3172579,Søborg,56.0852,12.3192,Denmark,7
+Sølvesborg|,Q898727,Sölvesborg,56.029918,14.57417,Sweden,42
+Sønderborg|,Q21179,Sønderborg,54.911389,9.786667,Denmark,51
+Taarnborg|,Q12339964,Tårnborg,55.3459,11.1427,Denmark,3
+Tallinn|Estonia,Q1770,Tallinn,59.437222,24.745,Estonia,230
+Tangermünde|,Q498565,Tangermünde,52.540833,11.968889,Germany,47
+Tartu|Estonia,Q13972,Tartu,58.38,26.7225,Estonia,132
+Templin|,Q519157,Templin,53.121686,13.508255,Germany,50
+Thorn|,Q47554,Toruń,53.0144,18.6014,Poland,101
+Tivoli|,Q159605,Tivoli,41.966667,12.8,Italy,90
+Tommerup|,Q307351,Östra Tommarp,55.535318,14.23757,Sweden,16
+Tours|,Q288,Tours,47.392778,0.688333,France,118
+Tranekær|,Q1606423,Tranekær Municipality,54.9969,10.8444,Denmark,12
+Trälleborg|,Q26943,Trelleborg,55.372346,13.181198,Sweden,58
+Turku|Finland,Q38511,Turku,60.451667,22.266944,Finland,148
+Tønder|,Q3162907,Tønder Municipality,54.933333,8.9,Denmark,38
+Tønsberg|,Q107392,Tønsberg,59.298056,10.423611,Norway,73
+Uppsala|,Q25286,Uppsala,59.849761,17.638947,Sweden,138
+Upsala|,Q25286,Uppsala,59.849761,17.638947,Sweden,138
+Vadstena|,Q265682,Vadstena,58.445096,14.897135,Sweden,50
+Varberg|,Q21168,Varberg,57.097293,12.273331,Sweden,63
+Vejle|,Q27116,Vejle,55.708333,9.533333,Denmark,77
+Viborg|Denmark,Q21176,Viborg,56.45,9.4,Denmark,75
+"Vienne, Isère|France",Q26849,Vienne,45.525556,4.874722,France,80
+Villeneuve-lès-Avignon|France,Q269113,Villeneuve-lès-Avignon,43.966389,4.795833,France,51
+Visby|,Q54757,Visby,57.628997,18.307109,Sweden,105
+Viterbo|,Q13395,Viterbo,42.418611,12.104167,Italy,96
+Vordingborg|,Q183572,Vordingborg Municipality,55.008333,11.910278,Denmark,42
+Warnemünde|,Q311849,Warnemünde,54.17683,12.08556,Germany,32
+Westminster|,Q179351,City of Westminster,51.4975,-0.137222,United Kingdom,92
+Windsor|,Q42646,Windsor Castle,51.483889,-0.604444,United Kingdom,85
+Wismar|,Q7030,Wismar,53.8925,11.465,Germany,92
+Ystad|,Q28287,Ystad,55.43462,13.825365,Sweden,60
+Åbenrå|,Q154897,Aabenraa,55.0447,9.4195,Denmark,55
+Åhus|,Q127419,Åhus,55.928535,14.295047,Sweden,30
+Ålborg|,Q25410,Aalborg,57.05,9.916667,Denmark,110
+Ålholm Slot|Denmark,Q4661399,Aalholm,54.664444,11.723611,Denmark,5
+Århus|,Q25319,Aarhus,56.156389,10.209722,Denmark,127
+Örebro|,Q25732,Örebro,59.266926,15.196522,Sweden,103

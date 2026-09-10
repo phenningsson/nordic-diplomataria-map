@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------------
+# Bulk source data. Excluded because it is far past GitHub's limits (digdag
+# alone is 17 GB, with single .shp files over 2 GB) or is re-obtainable from a
+# documented source. external/PROVENANCE.md records where each came from.
+# ---------------------------------------------------------------------------
+digdag/
+diplomatarium-danicum/
+external/geonames/
+external/ygk/
+external/tora/*.csv
+external/dn_letters.csv
+external/superdiplomatarium_map.js
+sdhk_2411.csv
+swedish_charters_enriched.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# scratch
+*.tmp
