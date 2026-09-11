@@ -24,3 +24,6 @@ __pycache__/
 # The full-resolution screen capture (159 MB, 1920x1140) - past GitHub's 100 MB
 # limit. The web-sized version used in the README is docs/charter_map.gif.
 dipl_charter_map.gif
+
+# the redacted public copy - lives in its own repository
+public_build/

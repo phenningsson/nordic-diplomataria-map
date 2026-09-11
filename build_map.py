@@ -5,6 +5,11 @@ with a time slider and a corpus filter."""
 import json, os, csv, collections, html
 
 ROOT = '/home/pontus/dd_geo_map'
+# Public build: read the redacted corpora and write elsewhere, so the same code
+# produces both the internal map and the one that carries no restricted text.
+DATA = os.environ.get('DD_DATA_DIR') or os.path.join(ROOT, 'data')
+OUTDIR = os.environ.get('DD_OUT_DIR') or os.path.join(ROOT, 'output')
+PUBLIC = bool(os.environ.get('DD_PUBLIC'))
 YMIN, YMAX = 789, 1590      # DD ends 1450 by construction; DN runs on to 1590
 
 # Colour encodes corpus - the question the map now answers. Slots 1 and 2 of the
@@ -50,12 +55,13 @@ def load(path, corpus):
     return out
 
 def main():
-    loaded = {k: load(os.path.join(ROOT, path), k)
+    loaded = {k: load(os.path.join(DATA, os.path.basename(path)), k)
               for k, _, _, path, _, _, _ in CORPORA}
     allrows = [r for k, _, _, _, _, _, _ in CORPORA for r in loaded[k]]
 
-    n_dd_total = sum(1 for _ in open(os.path.join(ROOT, 'data', 'charters.jsonl'),
-                                     encoding='utf-8'))
+    ddt = os.path.join(DATA, 'charters.jsonl')
+    n_dd_total = (sum(1 for _ in open(ddt, encoding='utf-8'))
+                  if os.path.exists(ddt) else len(loaded['DD']))
     places, per_decade = {}, collections.Counter()
     for r in allrows:
         y, c = r['year'], r['corpus']
@@ -75,9 +81,8 @@ def main():
     # draw big first so small markers land on top and stay clickable
     P = sorted(places.values(), key=lambda p: -len(p['ch']))
 
-    unres = list(csv.DictReader(open(os.path.join(ROOT, 'data',
-                                                  'unresolved_places.csv'),
-                                     encoding='utf-8')))
+    up = os.path.join(DATA, 'unresolved_places.csv')
+    unres = list(csv.DictReader(open(up, encoding='utf-8'))) if os.path.exists(up) else []
     keys = [k for k, _, _, _, _, _, _ in CORPORA]
     ovp = os.path.join(ROOT, 'output', 'overlays', 'overlays.json')
     overlays = json.load(open(ovp)) if os.path.exists(ovp) else {}
@@ -108,7 +113,7 @@ def main():
     ovnote = ' &middot; '.join(
         f'{html.escape(v["title"])}' for v in overlays.values())
 
-    sp = os.path.join(ROOT, 'data', 'sdhk_unresolved_places.csv')
+    sp = os.path.join(DATA, 'sdhk_unresolved_places.csv')
     sunres = list(csv.DictReader(open(sp, encoding='utf-8'))) if os.path.exists(sp) else []
     decades = [[d] + [per_decade[(k, d)] for k in keys]
                for d in range(YMIN // 10 * 10, YMAX + 10, 10)]
@@ -212,6 +217,7 @@ select{font:inherit;font-size:13px;padding:5px 8px;border-radius:6px;border:1px 
 .leaflet-popup-content a:hover{text-decoration:underline}
 .leaflet-popup-content .ab{color:#444;font-size:12px;line-height:1.4}
 .leaflet-popup-content .yr{color:#666;font-variant-numeric:tabular-nums}
+.leaflet-popup-content .red{color:#888;font-style:italic}
 </style></head><body>
 <div id="wrap">
  <aside id="side">
@@ -382,7 +388,8 @@ function render(){
       const list = inw.slice(-14).reverse().map(c =>
         `<li><a href="${charterUrl(p.c, c[0], c[1])}" target="_blank" rel="noopener">${esc(c[3])}</a>
            <span class="yr">&middot; ${c[0]}</span>
-           <div class="ab">${esc(c[2])}${c[2].length>=180?'…':''}</div></li>`).join('');
+           <div class="ab">${c[2] ? esc(c[2]) + (c[2].length>=180?'…':'')
+              : '<span class="red">Summary not reproduced here — open the edition.</span>'}</div></li>`).join('');
       const corpusName = CORPUS_NAME[p.c] || p.c;
       return `<h3>${esc(p.n)}</h3><p class="pm">${corpusName}${p.co?' &middot; '+esc(p.co):''}
         &middot; ${inw.length} charter${inw.length>1?'s':''} in ${win?lo+'–'+hi:'≤'+hi}
@@ -521,8 +528,8 @@ render();
               .replace('__NSUNRES__', f'{len(sunres):,}')
               .replace('__NSUNRESCH__',
                        f'{sum(int(r["n_charters"]) for r in sunres):,}'))
-    os.makedirs(os.path.join(ROOT, 'output'), exist_ok=True)
-    p = os.path.join(ROOT, 'output', 'dd_map.html')
+    os.makedirs(OUTDIR, exist_ok=True)
+    p = os.path.join(OUTDIR, 'dd_map.html')
     open(p, 'w', encoding='utf-8').write(out)
     for k, lab, _, _, _, _, _ in CORPORA:
         print(f'{k:<5} mapped : {len(loaded[k]):>7,}  '
